@@ -30,7 +30,7 @@ int main()
         if (num == "Q")
         {
             break;
-        }
+        } 
 
         if (isNumeric(num) == true && isCorrectLength(num) == true)
         {
