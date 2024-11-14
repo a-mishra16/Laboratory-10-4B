@@ -40,20 +40,20 @@ int main()
             }
             if (isCardValid(numArr, num.length()) == true)
             {
-                cout << "Card is Valid." << endl;
+                cout << "Card is Valid.\n" << endl;
             }
             else
             {
-                cout << "Card is Invalid." << endl;
+                cout << "Card is Invalid.\n" << endl;
             }
         }
         else if (isNumeric(num) != true)
         {
-            cout << "Error - Card Number Must Contain Only Digits" << endl;
+            cout << "Error - Card Number Must Contain Only Digits\n" << endl;
         }
         else if (isCorrectLength(num) != true)
         {
-            cout << "Error - Card Number Must Contain 16 Digits" << endl;
+            cout << "Error - Card Number Must Contain 16 Digits\n" << endl;
         }
     }
     
@@ -101,6 +101,7 @@ bool isNumeric(string s)
         else
         {
             done = false;
+            break;
         }
 
     }
